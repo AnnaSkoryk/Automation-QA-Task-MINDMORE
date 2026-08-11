@@ -1,172 +1,93 @@
-\# Cypress + TypeScript Test Project
+# Cypress + TypeScript Test Project
 
-A small test automation project created as part of a QA Automation task, using \*\*Cypress\*\* and \*\*TypeScript\*\*.
+Test automation project created as part of a **QA Automation task**.
 
+**Tech stack:** Cypress · TypeScript · Node.js · npm
 
+---
 
-\## Prerequisites
+## 🚀 Getting Started
 
+### Prerequisites
 
+Make sure you have the following installed:
 
-Make sure you have installed:
+* [Node.js](https://nodejs.org/)
+* npm
+* Git
 
-
-
-\* \[Node.js](https://nodejs.org/)
-
-\* npm (included with Node.js)
-
-\* Git
-
-
-
-You can check the installed versions:
-
-
+Check your versions:
 
 ```powershell
-
 node --version
-
 npm --version
-
 git --version
-
 ```
 
-
-
-\## Installation
-
-
-
-Clone the repository:
-
-
+### 1. Clone the repository
 
 ```powershell
-
-git clone <YOUR\_GITHUB\_REPOSITORY\_URL>
-
-cd <PROJECT\_FOLDER>
-
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd <PROJECT_FOLDER>
 ```
 
-
-
-Install the project dependencies:
-
-
+### 2. Install dependencies
 
 ```powershell
-
 npm install
-
 ```
 
+> `npm init` is **not required** after cloning because the project already contains `package.json`.
 
-
-> You do \*\*not\*\* need to run `npm init` after cloning. The project already contains `package.json`.
-
-
-
-If your npm version requires approval for Cypress installation scripts, run:
-
-
+If npm asks for permission to run Cypress installation scripts:
 
 ```powershell
-
 npm approve-scripts cypress
-
 ```
 
-
-
-Then verify Cypress:
-
-
+Then verify the Cypress installation:
 
 ```powershell
-
 npx cypress verify
-
 ```
 
+### 3. Run the tests
 
-
-\## Run the tests
-
-
-
-Open Cypress:
-
-
+Open the Cypress application:
 
 ```powershell
-
 npx cypress open
-
 ```
 
+Select the required test type and run the test specifications.
 
-
-Select the required test type and run the test specifications from the Cypress interface.
-
-
-
-\## TypeScript check
-
-
+### 4. Check TypeScript
 
 To check the TypeScript code without generating JavaScript files:
 
-
-
 ```powershell
-
 npx tsc --noEmit
-
 ```
 
+---
 
-
-\## Project structure
-
-
+## 📁 Project Structure
 
 ```text
-
 cypress/
-
 ├── e2e/          # Test specifications
-
 ├── fixtures/     # Test data
-
 └── support/      # Custom commands and support files
 
-
-
 cypress.config.ts # Cypress configuration
-
 tsconfig.json     # TypeScript configuration
-
 package.json      # Project dependencies
-
 ```
 
+---
 
+## 🛠 Technologies
 
-\## Tech stack
-
-
-
-\* Cypress
-
-\* TypeScript
-
-\* Node.js
-
-\* npm
-
-
-
+* **Cypress** — end-to-end testing
+* **TypeScript** — type-safe test development
+* **Node.js / npm** — project environment and dependency management
