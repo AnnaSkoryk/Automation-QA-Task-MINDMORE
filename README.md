@@ -27,8 +27,8 @@ git --version
 ### 1. Clone the repository
 
 ```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd <PROJECT_FOLDER>
+git clone https://github.com/AnnaSkoryk/Automation-QA-Task-MINDMORE.git
+cd Automation-QA-Task-MINDMORE
 ```
 
 ### 2. Install dependencies
